@@ -1,0 +1,25 @@
+li{
+    font-weight: bold;
+}
+.initial__window__paragraph{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+
+}
+
+.study__members{
+    font-weight: normal;
+}
+.home__card{
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 2rem 8rem 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.bold__paragraph{
+    font-weight: bold;
+}
+
