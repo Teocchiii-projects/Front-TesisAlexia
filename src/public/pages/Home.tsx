@@ -1,6 +1,7 @@
 import Card from "@mui/material/Card";
 import {CardContent, CardHeader,Button} from "@mui/material";
-import "./home.css";
+import {Link} from "react-router-dom";
+import "./Home.css";
 
 export function Home(){
     return(
@@ -78,7 +79,7 @@ export function Home(){
                         <h4>Derecho a retirarse</h4>
                         <p>Usted podrá retirarse en cualquier momento del estudio,<span className={"bold__paragraph"}>está en su derecho </span>  a hacerlo sin dar ninguna explicación al respecto.</p>
 
-                        <Button variant="contained"> Siguiente</Button>
+                        <Button variant="contained" component={Link} to={"/survey"}> Siguiente</Button>
                     </CardContent>
                 </Card>
 
