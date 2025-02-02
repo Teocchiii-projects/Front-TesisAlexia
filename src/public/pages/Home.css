@@ -3,7 +3,7 @@ li {
 }
 
 .initial__window__paragraph {
-    font-size: 1.5rem;
+    padding: 1rem 5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: left;
@@ -15,7 +15,7 @@ li {
 
 .home__card {
     justify-content: center;
-    font-size: 1.5rem;
+
     padding: 2rem 8rem 2rem;
     margin-left: 20%;
     margin-right: 20%;
@@ -24,8 +24,10 @@ li {
 .bold__paragraph {
     font-weight: bold;
 }
+.survey__button{
 
-/* Media queries for responsiveness */
+}
+
 @media (max-width: 768px) {
     .home__card {
         padding: 1rem 2%;

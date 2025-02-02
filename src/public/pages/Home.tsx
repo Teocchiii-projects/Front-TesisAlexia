@@ -1,19 +1,23 @@
-import Card from "@mui/material/Card";
-import {CardContent, CardHeader,Button} from "@mui/material";
 import {Link} from "react-router-dom";
 import "./Home.css";
+import {Button, Container} from "@mui/material";
 
 export function Home(){
     return(
         <>
 
-                <Card variant="outlined" className={"home__card"}>
-                    <CardHeader title=""/>
+            <Container className={"initial__window__paragraph"}>
 
-                    <CardContent className={"initial__window__paragraph"}>
-                        <h2>ASOCIACIÓN ENTRE LAS EXPERIENCIAS ADVERSAS ANTES DE LOS 18 AÑOS DE EDAD Y LA PRESENCIA DE
+                <Container className={"home__card"}>
+
+
+
+
+                        <h1>ASOCIACIÓN ENTRE LAS EXPERIENCIAS ADVERSAS ANTES DE LOS 18 AÑOS DE EDAD Y LA PRESENCIA DE
                             DOLOR CRÓNICO EN ADULTAS PERUANAS USUARIAS DE REDES SOCIALES DURANTE LOS AÑOS 2024 -
-                            2025 </h2>
+                            2025
+                        </h1>
+
                         <p>
                             A usted se le está invitando a participar de este proyecto de investigación el cual busca
                             determinar si hay una asociación entre las experiencias adversas antes de los 18 años de
@@ -79,9 +83,9 @@ export function Home(){
                         <h4>Derecho a retirarse</h4>
                         <p>Usted podrá retirarse en cualquier momento del estudio,<span className={"bold__paragraph"}>está en su derecho </span>  a hacerlo sin dar ninguna explicación al respecto.</p>
 
-                        <Button variant="contained" component={Link} to={"/survey"}> Siguiente</Button>
-                    </CardContent>
-                </Card>
+                        <Button variant="contained" component={Link} to={"/survey"} className={"survey__button"}> Siguiente</Button>
+                </Container>
+            </Container>
 
         </>
     )
