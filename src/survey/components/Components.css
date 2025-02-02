@@ -1,0 +1,39 @@
+.base__container {
+
+}
+
+
+.label__container {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.radio__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    overflow-x: auto;
+}
+
+
+.radio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center__items {
+margin-left: 30%;
+margin-right: 30%;
+}
+
+
+.radio__number {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #555;
+}
+
