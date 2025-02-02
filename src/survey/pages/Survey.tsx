@@ -6,7 +6,7 @@ import {FiRST} from "./FiRST.tsx";
 import {ACE} from "./ACE.tsx";
 import {PHQ2} from "./PHQ-2.tsx";
 import {IPAQ} from "./IPAQ.tsx";
-import {CalidadDeSueño} from "./CalidadDeSueño.tsx";
+import {CalidadDeSueno} from "./CalidadDeSueno.tsx";
 
 
 
@@ -28,7 +28,7 @@ export function Survey(){
                     6
                     <IPAQ/>
                     7
-                    <CalidadDeSueño/>
+                    <CalidadDeSueno/>
                     <label>email</label>
                     <input type={"email"}/>
 

@@ -1,6 +1,6 @@
 import "./Pages.css"
 
-export function CalidadDeSueño(){
+export function CalidadDeSueno(){
     return(
         <>
         <h2>Calidad de sueño</h2>
